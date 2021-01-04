@@ -1,0 +1,52 @@
+.hie{
+	height:100%;
+	width: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(newimage.jpeg);
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+
+}
+.formbox{
+	width: 380px;
+	height: 280px;
+	position: relative;
+	margin: 8% auto;
+	background:white;
+	padding: 8px;
+}
+.buttons{
+	width: 220px;
+	margin: 35px auto;
+	position: relative;
+	border-radius: 30px;
+}
+#btn{
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 110px;
+	background: linear-gradient(to right, #a7c5eb,#949cdf);
+	border-radius: 30px;
+	transition: .0s;
+
+}
+.submit-btn{
+	width:85%;
+	padding: 10px 20px;
+	cursor:pointer;
+	display: block;
+	margin:10px 10px auto 20px;
+	background: linear-gradient(to right, #a7c5eb,#949cdf);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+h1{
+	text-align: center;
+	font-weight: 100px;
+	color: #949cdf;
+
+}
